@@ -6,17 +6,9 @@
     box-sizing: border-box;
 } */
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: var(--nunito-font);
-    /* line-height: 1.8; */
-    font-size: 1rem;
-}
-
 :root {
     --primary-color: #379A86;
-    --secondary-color: #f0f;
+    --secondary-color: #fff;
     --dark-color: #3C3C3C;
     --light-color: #d8ca0d;
     --white-color: #fff;
@@ -28,11 +20,19 @@ body {
     --heading-2: 1.25rem;
     --heading-3: 1.25rem;
     --heading-4: 1.125rem;
-    --heading-5: 1.125rem;
-    --heading-5: 1.125rem;
+    /* --heading-5: 1.125rem; */
+    /* --heading-5: 1.125rem; */
     --popins-font: 'Poppins', sans-serif;
     --nunito-font: "Nunito Sans", serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--nunito-font);
+    /* line-height: 1.8; */
+    font-size: 1rem;
+}
+
 
 h1,
 h2,
@@ -154,7 +154,6 @@ a {
         --heading-2: 1.75rem;
         --heading-3: 1.5rem;
         --heading-4: 1.375rem;
-        --heading-5: 1.25rem;
     }
 }
 
@@ -164,7 +163,6 @@ a {
         --heading-2: 2rem;
         --heading-3: 1.75rem;
         --heading-4: 1.5rem;
-        --heading-5: 1.375rem;
     }
 }
 
@@ -174,7 +172,6 @@ a {
         --heading-2: 2.25rem;
         --heading-3: 2rem;
         --heading-4: 1.75rem;
-        --heading-5: 1.5rem;
     }
 }
 
@@ -184,7 +181,6 @@ a {
         --heading-2: 2.5rem;
         --heading-3: 2.25rem;
         --heading-4: 2rem;
-        --heading-5: 1.75rem;
     }
 }
 
@@ -194,6 +190,5 @@ a {
         --heading-2: 2.75rem;
         --heading-3: 2.5rem;
         --heading-4: 2.25rem;
-        --heading-5: 2rem;
     }
 }
