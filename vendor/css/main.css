@@ -67,7 +67,7 @@ h6{
 .p-title{
     font-size: var(--heading-5);
 }
-/* //------------------utility classes starts here-------------- */
+/* ------------------utility classes starts here-------------- */
 /* anchor color inherit  */
 a {
     color: inherit;

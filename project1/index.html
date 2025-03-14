@@ -7,19 +7,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="../vendor/css/grid.css">
     <link rel="stylesheet" href="../vendor/css/main.css">
-    <!-- <link rel="stylesheet" href="../vendor/css/spacing.css"> -->
+    <link rel="stylesheet" href="../vendor/css/styles.css">
 </head>
 
 <body>
-    <div>
-        <h1>Hello GUYS <br> AND WELCOME</h1>
-        <h2>hello world</h2>
-        <h3>hello world</h3>
-        <h4>hello world</h4>
-        <h5>hello world</h5>
-        <h6>hello world</h6>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum incidunt repellat consequuntur fugiat ipsum explicabo facilis, quidem non amet unde?</p>
-    </div>
+    <header>
+        <nav class="container flex justify-between align-center text-light">
+            <figure>
+                <img src="./assets/logo-header.png" alt="logo">
+            </figure>
+            <div class="hamburger">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+            <!-- nav items  -->
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li class="header-dropdown">
+                    <a href="#">Project</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">On Going</a></li>
+                        <li><a href="#">Completed</a></li>
+                        <li><a href="#">UpComing</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Gallary</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Details</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 
 </html>
