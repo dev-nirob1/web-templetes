@@ -168,6 +168,15 @@ header nav ul li a:hover {
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
+
+/* award collection  */
+.award .image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+/* award collection  */
+
 /*--------------------------footer section starts here----------------------------*/
 footer {
     background-color: var(--primary-color);
@@ -247,7 +256,6 @@ footer ul{
     }
 
     /* hero section  */
-
     .hero-image img {
         border-radius: 200px;
         padding-bottom: 30px;
@@ -275,6 +283,13 @@ footer ul{
     /* gellery section  */
     .gallery{
         columns: 3;
+    }
+    /* award collection section  */
+    .award .image-container img {
+        border-top-right-radius: 250px;
+        border-bottom-right-radius: 250px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
      /* footer  */
      .footer-bottom {
