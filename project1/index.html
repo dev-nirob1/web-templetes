@@ -14,10 +14,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/7e464cca7d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
+    <header class="px-1">
         <nav class="container flex justify-between align-center">
             <figure>
                 <img src="./assets/logo-header.png" alt="logo">
@@ -56,63 +58,68 @@
         </nav>
     </header>
     <main>
-        <!-- banner section  -->
-        <section class="container banner">
+        <!-- hero section  -->
+        <section class="container">
             <div class="medium-2 align-center mb-1 medium-mb-2">
                 <div>
                     <h3 class="title">
                         HELLO GUYS <br> AND WELCOME
                     </h3>
                 </div>
-                <div>
-                    <h5>Paragraph title</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla maxime velit adipisci. Ipsum
-                        quidem itaque nisi quisquam, est debitis omnis.</p>
+                <div class="content-block">
+                    <h5 class="text-primary">Paragraph title</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores quaerat
+                        excepturi.</p>
                 </div>
             </div>
-            <div>
+            <div class="hero-image">
                 <img src="./assets/about-5.jpg" alt="">
             </div>
         </section>
-        <!-- banner section  -->
+        <!-- hero section  -->
+
         <!-- content list section  -->
         <section class="container py-2 medium-py-5">
             <div class="medium-2 mb-3 gap-3">
-                <div class="p-1 medium-p-2 bg-primary white-color">
-                    <div class="number flex align-center gap-3">
-                        <span class="p-1 bg-secondary text-primary">01</span>
-                        <div class="content">
-                            <p class="white-color">content</p>
+                <div class="content-wraper p-1 medium-p-2">
+                    <div class="flex align-center gap-1 mb-2">
+                        <div class="number">
+                            <span>01</span>
+                        </div>
+                        <div class="content-block">
+                            <h6 class="white-color">Content</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores quaerat
-                                excepturi
-                                quas vitae cumque eius sunt ab minima! Deserunt.</p>
+                                excepturi.</p>
                         </div>
                     </div>
-                    <div class="number flex align-center gap-3">
-                        <span class="p-1 bg-secondary text-primary">01</span>
-                        <div class="content">
-                            <p class="white-color">content</p>
+                    <div class="flex align-center gap-1 mb-2">
+                        <div class="number">
+                            <span>01</span>
+                        </div>
+                        <div class="content-block">
+                            <h6 class="white-color">Content</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores quaerat
-                                excepturi
-                                quas vitae cumque eius sunt ab minima! Deserunt.</p>
+                                excepturi.</p>
                         </div>
                     </div>
-                    <div class="number flex align-center gap-3">
-                        <span class="p-1 bg-secondary text-primary">01</span>
-                        <div class="content">
-                            <p class="white-color">content</p>
+                    <div class="flex align-center gap-1 mb-2">
+                        <div class="number">
+                            <span>01</span>
+                        </div>
+                        <div class="content-block">
+                            <h6 class="white-color">Content</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores quaerat
-                                excepturi
-                                quas vitae cumque eius sunt ab minima! Deserunt.</p>
+                                excepturi.</p>
                         </div>
                     </div>
-                    <div class="number flex align-center gap-3">
-                        <span class="p-1 bg-secondary text-primary">01</span>
-                        <div class="content">
-                            <p class="white-color">content</p>
+                    <div class="flex align-center gap-1 mb-2">
+                        <div class="number">
+                            <span>01</span>
+                        </div>
+                        <div class="content-block">
+                            <h6 class="white-color">Content</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores quaerat
-                                excepturi
-                                quas vitae cumque eius sunt ab minima! Deserunt.</p>
+                                excepturi.</p>
                         </div>
                     </div>
                 </div>
@@ -120,8 +127,8 @@
                     <h3 class="title">
                         Content List <br> Presentation
                     </h3>
-                    <div class="content">
-                        <p class="text-primary">content</p>
+                    <div class="content-block">
+                        <h6 class="text-primary">Content List</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores quaerat
                             excepturi
                             quas vitae cumque eius sunt ab minima! Deserunt.</p>
@@ -166,7 +173,7 @@
         <!-- about us section  -->
 
         <!-- our vison and mission section  -->
-         <section class="container our-vision py-2 medium-py-5">
+        <section class="container our-vision py-2 medium-py-5">
             <div>
                 <img class="width-full" src="./assets/about-5.jpg" alt="">
             </div>
@@ -197,11 +204,11 @@
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
         <!-- our vison and mission section  -->
 
-         <!-- services section  -->
-         <section class="another-services py-2 medium-py-5">
+        <!-- services section  -->
+        <section class="another-services py-2 medium-py-5">
             <div class="container medium-2 medium-gap-2">
                 <div>
                     <h3 class="title">
@@ -230,11 +237,11 @@
                     <img src="./assets/about-5.jpg" alt="">
                 </div>
             </div>
-         </section>
-         <!-- services section  -->
+        </section>
+        <!-- services section  -->
 
-         <!-- our founder section  -->
-          <section class="container founder py-2 medium-py-5">
+        <!-- our founder section  -->
+        <section class="container founder py-2 medium-py-5">
             <div class="medium-2 medium-gap-2">
                 <div class="bg-primary flex align-center justify-center">
                     <img src="./assets/about-5.jpg" alt="">
@@ -263,14 +270,14 @@
                     </div>
                 </div>
             </div>
-          </section>
-         <!-- our founder section  -->
+        </section>
+        <!-- our founder section  -->
 
-         <!-- gellery section  -->
-         <div class="gallery">
-            <img src="./assets/about-5.jpg" alt="Nature 1">
+        <!-- gellery section  -->
+        <div class="gallery">
+            <!-- <img src="./assets/about-5.jpg" alt="Nature 1"> -->
         </div>
-         <!-- gellery section  -->
+        <!-- gellery section  -->
 
     </main>
 </body>

@@ -60,20 +60,43 @@ header nav ul li a:hover {
 
 .nav {
     list-style: none;
-    display: flex;
-}
-
-.hamburger {
     display: none;
 }
 
-.banner img {
-    height: 40vh;
-    width: 100%;
-    border-radius: 300px;
-    padding-bottom: 30px;
+.hamburger {
+    display: block;
+}
+/* hero section  */
+.hero-image{
+    background: url('../../project1/assets/layered-steps-haikei.png') no-repeat bottom / cover;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
 }
 
+.hero-image img {
+    height: 45vh;
+    width: 100%;
+    border-radius: 50px;
+    padding-bottom: 30px;
+}
+/* hero section  */
+
+/* content list  */
+.content-wraper{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 40px;
+}
+.content-wraper p{
+    margin: 0;
+}
+.number span{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* content list  */
 
 /* about us  */
 .image-container img{
@@ -103,4 +126,38 @@ header nav ul li a:hover {
 
 .founder img{
     height: 300px;
+}
+
+
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    .nav {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    /* hero section  */
+
+    .hero-image img {
+        border-radius: 200px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+   
+}
+
+@media (min-width: 1400px) {
+
 }

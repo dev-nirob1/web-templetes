@@ -56,10 +56,12 @@ h4{
     font-size: var(--heading-4)
 }
 h5{
-    font-size: var(--heading-5)
+    font-size: var(--heading-5);
+    margin: 0;
 }
 h6{
-    font-size: var(--heading-6)
+    font-size: var(--heading-6);
+    margin: 0;
 }
 .title{
     font-size: var(--heading-3);
