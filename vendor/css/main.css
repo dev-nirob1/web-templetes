@@ -10,9 +10,9 @@
     --primary-color: #379A86;
     --secondary-color: #fff;
     --dark-color: #3C3C3C;
-    --light-color: #d8ca0d;
+    --light-color: #4c4b4b;
     --white-color: #fff;
-    --alternative-color: #00fe;
+    --alternative-color: #4c4b4b01;
     --hover-color: #d75454;
     /* ---------------typography------------ */
     /* headings  */
@@ -85,7 +85,7 @@ a {
     color: var(--white-color)
 }
 .bg-light {
-    background-color: var(--bg-light);
+    background-color: var(--light-color);
 }
 .bg-primary {
     background-color: var(--primary-color);

@@ -192,6 +192,20 @@ header nav ul li a:hover {
 }
 /* break slide  */
 
+/* price table  */
+.pricing .price-card h4,h6{
+    margin: 0;
+    padding: 5px 0;
+    /* color: inherit; */
+}
+.pricing .price-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+}
+/* price table  */
+
 /*--------------------------footer section starts here----------------------------*/
 footer {
     background-color: var(--primary-color);
