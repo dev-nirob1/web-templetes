@@ -155,13 +155,87 @@ header nav ul li a:hover {
 .founder img {
     height: 350px;
     width: 350px;
+    border-radius: 1rem;
+}
+.gallery{
+    columns: 1;
+    gap: 1rem;
+}
+.gallery img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+/*--------------------------footer section starts here----------------------------*/
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
+.footer-links li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-links li:hover a{
+   text-decoration: underline;
+}
+
+.newsletter input {
+    padding: 1rem;
+    margin-right: 10px;;
+    background-color: var(--secondary-color);
+    outline: none;
+    border: none;
+    border: 1px solid var(--border-color);
+}
+
+.footer-btn {
+    padding: 1rem 2rem;
+    outline: none;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.footer-bottom {
+    background-color: #2b7a6b;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*-------------------------footer section ends here-----------------------*/
 
 
 @media (min-width: 576px) {}
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .gallery{
+        columns: 2;
+    }
+}
 
 @media (min-width: 992px) {
     .nav {
@@ -198,8 +272,21 @@ header nav ul li a:hover {
     .another-services {
         background-size: cover;
     }
+    /* gellery section  */
+    .gallery{
+        columns: 3;
+    }
+     /* footer  */
+     .footer-bottom {
+        flex-direction: row;
+    }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+     /* gellery section  */
+     .gallery{
+        columns: 4;
+    }
+}
 
 @media (min-width: 1400px) {}
