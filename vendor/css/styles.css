@@ -111,7 +111,7 @@ header nav ul li a:hover {
 
 /* our vision section  */
 .our-vision img {
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     border-radius: 50px;
 }
@@ -176,6 +176,21 @@ header nav ul li a:hover {
     border-radius: 40px;
 }
 /* award collection  */
+
+/* break slide  */
+.break-slide .slide-image{
+    height: 100%;
+    width: 100%;
+}
+.break-slide .slide-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.slide-content{
+    border-radius: 40px;
+}
+/* break slide  */
 
 /*--------------------------footer section starts here----------------------------*/
 footer {
