@@ -1,3 +1,11 @@
+/* todo  */
+/*
+1. include icon + slider
+2. timeline section 
+3. change styles
+4. hover effects
+*/
+
 header {
     background-color: var(--primary-color);
     font-family: var(--popins-font);
@@ -67,6 +75,7 @@ header nav ul li a:hover {
     display: block;
 }
 
+/* common  */
 .content-block p {
     margin-top: 0;
 }
@@ -113,7 +122,8 @@ h5 {
 .content-wraper {
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    border-radius: 40px;
+    /* border-radius: 40px; */
+    border-radius: 20px;
 }
 
 .content-wraper>div:not(:last-child) {
@@ -159,36 +169,43 @@ h5 {
 }
 
 /* another services section  */
-.another-services {
+.services {
     background-image: url('../../project1/assets/bg-circle.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.another-services img {
+.services img {
     width: 100%;
     border-radius: 40px;
     height: 100%;
 }
 
 /* founder section  */
+.founder-image {
+    padding: 1rem;
+}
+
+.founder-image img {
+    height: 280px;
+    width: 280px;
+    border-radius: 1rem;
+}
+
 .founder-card {
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem .5rem;
     border-radius: 1.5rem;
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
 .founder-card i {
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+    border-radius: 8px;
     margin-bottom: 1rem;
-}
-
-.founder img {
-    height: 350px;
-    width: 350px;
-    border-radius: 1rem;
 }
 
 /* founder  */
@@ -232,6 +249,7 @@ h5 {
 }
 
 /* gallery  */
+
 /* award collection  */
 .award .image-container img {
     width: 100%;
@@ -242,12 +260,12 @@ h5 {
 /* award collection  */
 
 /* break slide  */
-.break-slide .slide-image {
+.slide-image {
     height: 100%;
     width: 100%;
 }
 
-.break-slide .slide-image img {
+.slide-image img {
     width: 100%;
     height: 100%;
     border-radius: 40px;
@@ -269,9 +287,9 @@ h6 {
 
 .pricing .price-card {
     text-align: center;
-    padding: 1rem;
+    padding: 1rem .5rem;
     border-radius: 1rem;
-    color: white;
+    color: var(--secondary-color);
 }
 
 /* price table  */
@@ -339,7 +357,7 @@ footer ul {
 /*-------------------------footer section ends here-----------------------*/
 
 
-@media (min-width: 576px) {}
+/* @media (min-width: 576px) {} */
 
 @media (min-width: 768px) {
     .gallery {
@@ -368,7 +386,6 @@ footer ul {
         padding-bottom: 30px;
     }
 
-
     /* about us section  */
     .about-us .image-container img {
         border-top-left-radius: 250px;
@@ -382,6 +399,16 @@ footer ul {
         height: 40vh;
         width: 100%;
         border-radius: 200px;
+    }
+
+    /* founder secton  */
+    .founder-image {
+        padding: 4rem;
+    }
+
+    .founder-image img {
+        height: 350px;
+        width: 350px;
     }
 
     /* another services  */
@@ -402,6 +429,11 @@ footer ul {
         border-bottom-left-radius: 0;
     }
 
+    /* pricing  */
+    .pricing .price-card {
+        padding: 1rem;
+    }
+
     /* footer  */
     .footer-bottom {
         flex-direction: row;
@@ -416,4 +448,4 @@ footer ul {
     }
 }
 
-@media (min-width: 1400px) {}
+/* @media (min-width: 1400px) {} */
