@@ -81,7 +81,7 @@ a {
 .text-secondary {
     color: var(--white-color);
 }
-.white-color {
+.text-white {
     color: var(--white-color)
 }
 .bg-light {
