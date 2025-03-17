@@ -67,6 +67,23 @@ header nav ul li a:hover {
     display: block;
 }
 
+.content-block p{
+    margin-top: 0;
+}
+/* banner section  */
+.banner{
+    background: url('./../../project1/assets/bannerbg.png') no-repeat bottom / cover;
+}
+.banner h3,h5{
+    color: white;
+}
+
+.banner .icon{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* banner section  */
+
 /* hero section  */
 .hero-image {
     background: url('../../project1/assets/layered-steps-haikei.png') no-repeat bottom / cover;
