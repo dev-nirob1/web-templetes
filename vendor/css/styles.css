@@ -256,6 +256,19 @@ h5 {
     margin-bottom: 1rem;
 }
 
+/* collection portfolio  */
+.collection-portfolio .images img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.collection-portfolio .images {
+    flex-direction: row;
+    /* rotate: 135deg; */
+    margin: 0 auto;
+}
+
 /* gallery  */
 .timeline {
     border-left: 3px solid var(--primary-color);
@@ -424,6 +437,10 @@ footer ul {
     .gallery {
         columns: 2;
     }
+    .collection-portfolio .images {
+        flex-direction: column;
+    }
+    
 }
 
 @media (min-width: 992px) {
@@ -480,6 +497,16 @@ footer ul {
     /* gellery section  */
     .gallery {
         columns: 3;
+    }
+    /* collection portfolio */
+    .collection-portfolio .images img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    .collection-portfolio .images {
+        flex-direction: column;
+        transform: rotate(-35deg);
     }
 
     /* award collection section  */
