@@ -270,11 +270,6 @@ h5 {
 }
 
 /* gallery  */
-.timeline {
-    border-left: 3px solid var(--primary-color);
-    padding: 0 20px;
-}
-
 .order-1 {
     order: 1;
 }
@@ -282,19 +277,23 @@ h5 {
 .order-2 {
     order: 2;
 }
+.timeline {
+    border-left: 3px solid var(--primary-color);
+    padding: 0 20px;
+}
 
 .timeline .content-block {
-    border: 3px solid var(--primary-color);
-    padding: 20px;
-    margin: 10px 0px 30px 20px;
+    /* border: 3px solid var(--primary-color); */
+    /* padding: 20px; */
+    margin: 0 0px 30px 20px;
     position: relative;
 }
 
 .timeline .content-block::before {
     content: '';
     position: absolute;
-    top: 20px;
-    left: -55px;
+    top:0;
+    left: -52px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -303,21 +302,21 @@ h5 {
 
 .timeline-1 {
     border-top: 3px solid var(--primary-color);
-    padding: 0 20px;
+    padding: 0;
 }
 
 .timeline-1 .content-block {
-    border: 3px solid var(--primary-color);
-    padding: 20px;
+    /* border: 3px solid var(--primary-color); */
+    /* padding: 20px; */
     margin: 30px 10px 0 0;
     position: relative;
 }
 
-.timeline-1 .content-block::before {
+.timeline-1 .content-block::after {
     content: '';
     position: absolute;
-    top: -45px;
-    left: 50%;
+    top: -42px;
+    left: 0;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -437,10 +436,11 @@ footer ul {
     .gallery {
         columns: 2;
     }
+
     .collection-portfolio .images {
         flex-direction: column;
     }
-    
+
 }
 
 @media (min-width: 992px) {
@@ -498,15 +498,17 @@ footer ul {
     .gallery {
         columns: 3;
     }
+
     /* collection portfolio */
     .collection-portfolio .images img {
         height: 250px;
         width: 250px;
         border-radius: 50%;
     }
+
     .collection-portfolio .images {
         flex-direction: column;
-        transform: rotate(-35deg);
+        rotate: 40deg;
     }
 
     /* award collection section  */
