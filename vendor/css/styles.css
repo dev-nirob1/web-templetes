@@ -227,13 +227,19 @@ h5 {
 /* team-member 2 */
 
 /* .team{
-    background: url('./../../project1/assets/bg-circle-bottom.png') no-repeat bottom / cover;
+    background: url('./../../project1/assets/bg-circle-bottom.png') no-repeat left ;
+} */
+.team h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
-.member-info img{
+
+.member-info img {
     height: 100px;
     width: 100px;
     border-radius: 20px;
-} */
+}
+
 /* team-member 2 */
 
 /* gallery  */
@@ -249,19 +255,29 @@ h5 {
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
+
 /* gallery  */
 .timeline {
     border-left: 3px solid var(--primary-color);
     padding: 0 20px;
 }
 
-.timeline .content-block{
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.timeline .content-block {
     border: 3px solid var(--primary-color);
     padding: 20px;
     margin: 10px 0px 30px 20px;
     position: relative;
 }
-.timeline .content-block::before{
+
+.timeline .content-block::before {
     content: '';
     position: absolute;
     top: 20px;
@@ -271,17 +287,20 @@ h5 {
     border-radius: 50%;
     background-color: var(--primary-color);
 }
-.timeline-1{
+
+.timeline-1 {
     border-top: 3px solid var(--primary-color);
     padding: 0 20px;
 }
-.timeline-1 .content-block{
+
+.timeline-1 .content-block {
     border: 3px solid var(--primary-color);
     padding: 20px;
     margin: 30px 10px 0 0;
     position: relative;
 }
-.timeline-1 .content-block::before{
+
+.timeline-1 .content-block::before {
     content: '';
     position: absolute;
     top: -45px;
