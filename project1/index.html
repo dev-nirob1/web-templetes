@@ -56,7 +56,6 @@
     </header>
 
     <main>
-
         <!-- banner section  -->
         <section class="container banner px-1 ">
             <div class="medium-2 align-center my-1 medium-my-3 large-my-5">
@@ -835,6 +834,24 @@
         </div>
     </footer>
     <!-- footer section  -->
+
+    <script>
+        const body = document.body;
+        // console.log(body);
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', ()=>{
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > lastScroll){
+                body.classList.add('scroll-down')
+            }
+            else{
+                body.classList.remove('scroll-down')
+            }
+            console.log(body);
+            lastScroll = currentScroll;
+        })
+    </script>
 </body>
 
 </html>
