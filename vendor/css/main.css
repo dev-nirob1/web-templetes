@@ -7,6 +7,9 @@
 } */
 
 :root {
+    --popins-font: 'Poppins', sans-serif;
+    --nunito-font: "Nunito Sans", serif;
+    
     --primary-color: #379A86;
     --secondary-color: #fff;
     --dark-color: #3C3C3C;
@@ -22,8 +25,9 @@
     --heading-4: 1.125rem;
     /* --heading-5: 1.125rem; */
     /* --heading-5: 1.125rem; */
-    --popins-font: 'Poppins', sans-serif;
-    --nunito-font: "Nunito Sans", serif;
+   
+    /* box shadows  */
+    --testimonials-card-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
 }
 
 body {
