@@ -112,7 +112,48 @@ header nav ul li a:hover {
     width: 4rem;
     border-radius: 50%;
 }
-/* testimonials section  */
+/*--------------- testimonials section-------------  */
+
+/* ----------------blogs section ------------- */
+.blog-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    font-family: var(--nunito-font);
+    box-shadow: var(--blog-card-shadow);
+}
+.card-image {
+    height: 280px;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+.blog-card .card-image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.blog-card h5{
+    margin: 20px 0;
+}
+.blog-card h5,a{
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.blog-card:hover img {
+    transform: scale(1.1);
+}
+.blog-card:hover h5, 
+.blog-card:hover a {
+    color: var(--primary-color);
+}
+.blog-card:hover a{
+    text-decoration: underline;
+}
+/* ----------------blogs section ------------- */
 
 /*--------------------------footer section starts here----------------------------*/
 footer {
