@@ -89,7 +89,7 @@ header nav ul li a:hover {
 
 /* banner section  */
 .banner {
-    background: url('./../../project1/assets/bannerbg.png') no-repeat left / cover;
+    background: url('./../../baseComponents/assets/bannerbg.png') no-repeat left / cover;
 }
 
 .banner img {
@@ -219,7 +219,7 @@ h5 {
 
 /* team-member  */
 .team-member {
-    background: url('./../../project1/assets/bg-right.png') no-repeat right / cover;
+    background: url('./../../baseComponents/assets/bg-right.png') no-repeat right / cover;
 }
 
 .team-member .icon {

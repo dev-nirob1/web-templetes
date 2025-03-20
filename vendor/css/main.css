@@ -25,6 +25,7 @@
     --popins-font: 'Poppins', sans-serif;
     --nunito-font: "Nunito Sans", serif;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -40,34 +41,43 @@ h4,
 h5,
 h6 {
     font-family: var(--popins-font);
-    color:var(--dark-color);
+    color: var(--dark-color);
 }
-h1{
+
+h1 {
     font-size: var(--heading-1)
 }
-h2{
+
+h2 {
     font-size: var(--heading-2)
 }
-h3{
+
+h3 {
     font-size: var(--heading-3)
 }
-h4{
+
+h4 {
     font-size: var(--heading-4)
 }
-h5{
+
+h5 {
     font-size: var(--heading-5);
     margin: 0;
 }
-h6{
+
+h6 {
     font-size: var(--heading-6);
     margin: 0;
 }
-.title{
+
+.title {
     font-size: var(--heading-3);
 }
-.p-title{
+
+.p-title {
     font-size: var(--heading-5);
 }
+
 /* ------------------utility classes starts here-------------- */
 /* anchor color inherit  */
 a {
@@ -78,46 +88,64 @@ a {
 .text-primary {
     color: var(--primary-color);
 }
+
 .text-secondary {
     color: var(--white-color);
 }
+
 .text-white {
     color: var(--white-color)
 }
+
 .bg-light {
     background-color: var(--light-color);
 }
+
 .bg-primary {
     background-color: var(--primary-color);
 }
+
 .bg-secondary {
     background-color: var(--secondary-color);
 }
-.text-center{text-align: center;}
-.text-right{text-align: right;}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
 
 /* flex  */
 .flex {
     display: flex;
 }
+
 .flex-wrap {
     flex-wrap: wrap;
 }
+
 .flex-col {
     flex-direction: column;
 }
+
 .align-center {
     align-items: center;
 }
+
 .justify-between {
     justify-content: space-between;
 }
+
 .justify-center {
     justify-content: center;
 }
+
 .justify-end {
     justify-content: end;
 }
+
 /* button styles  */
 .btn {
     display: inline-block;
@@ -127,14 +155,17 @@ a {
     text-align: center;
     transition: all 0.3s ease;
 }
+
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+
 .btn-secondary {
     background-color: var(--secondary-color);
     color: var(--white-color);
 }
+
 .btn-outline {
     background-color: transparent;
     border: 2px solid var(--primary-color);
