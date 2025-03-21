@@ -1,3 +1,20 @@
+/* commono styles  */
+.card-image {
+    height: 280px;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+.card-image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+
 /* navbar scroll  */
 .scroll-down header {
     transform: translate3d(0, -100%, 0);
@@ -96,6 +113,37 @@ header nav ul li a:hover {
 }
 /* ----------------hero section----------------- */
 
+/* ----------------about section----------------- */
+.about .left-image{
+    height: 100vh;
+    width: 100%;
+}
+.about .image{
+    width: 100%;
+    height: 100%;
+}
+.about .image img{
+    height: 90%;
+    width: 100%;
+}
+/* ----------------about section----------------- */
+
+/*------------------ featured trees--------------- */
+.features h5{
+    margin: 10px 0;
+}
+.features .featured-card{
+    box-shadow: var(--blog-card-shadow);
+    border-radius: 1rem;
+}
+.featured-card:hover img {
+    transform: scale(1.1);
+}
+.featured-card .price del{
+color: var(--primary-color)
+}
+/*------------------ featured trees--------------- */
+
 /* --------------testimonials section -------------- */
 .testimonials .testimonial {
     padding: 1.5rem 1rem;
@@ -122,20 +170,7 @@ header nav ul li a:hover {
     font-family: var(--nunito-font);
     box-shadow: var(--blog-card-shadow);
 }
-.card-image {
-    height: 280px;
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-    overflow: hidden;
-}
-.blog-card .card-image img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    transition: all .5s ease-in-out;
-}
+
 .blog-card h5{
     margin: 20px 0;
 }
