@@ -1,4 +1,4 @@
-/* commono styles  */
+/*-------- commono styles----------  */
 .card-image {
     height: 280px;
     width: 100%;
@@ -14,13 +14,12 @@
     overflow: hidden;
     transition: all .5s ease-in-out;
 }
-
+/*-------- commono styles----------  */
 
 /* navbar scroll  */
 .scroll-down header {
     transform: translate3d(0, -100%, 0);
 }
-
 header {
     background-color: var(--primary-color);
     font-family: var(--popins-font);
@@ -31,32 +30,26 @@ header {
     transition: all .3s ease-in-out;
     z-index: 999;
 }
-
 header nav {
     color: var(--secondary-color);
     padding: 1rem 0;
 }
-
 header nav ul li:not(:last-child) {
     margin-right: 1rem;
 }
-
 header nav ul li a {
     text-decoration: none;
     padding: 1rem .8rem;
     font-size: 1.125rem;
     font-weight: 500;
 }
-
 header nav ul li a:hover {
     /* color: var(--primary-color); */
     transition: all .3s ease-in-out;
 }
-
 .header-dropdown {
     position: relative;
 }
-
 .header-dropdown .dropdown-menu {
     border-top: 2px solid var(--secondary-color);
     position: absolute;
@@ -70,33 +63,27 @@ header nav ul li a:hover {
     z-index: 999;
     list-style: none;
 }
-
 .header-dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
-
 .dropdown-menu a {
     display: block;
     padding: .5rem 1rem;
 }
-
 .nav {
     list-style: none;
     display: none;
 }
-
 .hamburger {
     display: block;
 }
-
 /* ----------------hero section----------------- */
 .hero {
     height: 100vh;
     width: 100%;
 }
-
 .hero-content {
     height: 100%;
     width: 100%;
@@ -110,11 +97,9 @@ header nav ul li a:hover {
     align-items: center;
     text-align: center;
 }
-
 .hero-content>div {
     max-width: 100%;
 }
-
 /* ----------------hero section----------------- */
 
 /* ----------------about section----------------- */
@@ -122,23 +107,21 @@ header nav ul li a:hover {
     height: 100vh;
     width: 100%;
 }
-
 .about .image {
     width: 100%;
     height: 100%;
 }
-
 .about .image img {
     height: 90%;
     width: 100%;
 }
 /* ----------------about section----------------- */
-/* ----------------impact section --------------- */
 
+/* ----------------impact section --------------- */
 .impact-item {
     text-align: center;
     width: 100%;
-    background: white;
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -150,32 +133,25 @@ header nav ul li a:hover {
     font-size: 2.5rem;
     color: var(--primary-color);
 }
-
-
 /* ----------------impact section --------------- */
 
 /*------------------ featured trees--------------- */
 .features h5 {
     margin: 10px 0;
 }
-
 .features .featured-card {
     box-shadow: var(--blog-card-shadow);
     border-radius: 1rem;
 }
-
 .featured-card:hover img {
     transform: scale(1.1);
 }
-
 .featured-card .price del {
     color: var(--primary-color)
 }
-
 /*--------------------- featured trees ------------------ */
 
 /* ------------------- gallery section --------------- */
-
 .gallery-images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -200,8 +176,22 @@ header nav ul li a:hover {
 .row-span-2 {
     grid-row: span 2;
 }
-
 /* ------------------- gallery section ----------------- */
+
+/* -------------------pricing table ----------------- */
+.pricing .price-card h4,
+.pricing .price-card h6 {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+.pricing .price-card {
+    background-color: var(--primary-color);
+    padding: 1rem .5rem;
+    border-radius: .5rem;
+    color: var(--secondary-color);
+}
+/* ----------------pricing table ------------------ */
 
 /* --------------testimonials section -------------- */
 .testimonials .testimonial {
@@ -210,18 +200,15 @@ header nav ul li a:hover {
     border-radius: 5px;
     box-shadow: var(--testimonials-card-shadow);
 }
-
 .testimonial h5 {
     margin: 0;
     padding: 0;
 }
-
 .testimonial .profile-image {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
 }
-
 /*--------------- testimonials section-------------  */
 
 /* ----------------blogs section ------------- */
@@ -232,30 +219,24 @@ header nav ul li a:hover {
     font-family: var(--nunito-font);
     box-shadow: var(--blog-card-shadow);
 }
-
 .blog-card h5 {
     margin: 20px 0;
 }
-
 .blog-card h5,
 a {
     transition: all .3s ease-in-out;
     text-decoration: none;
 }
-
 .blog-card:hover img {
     transform: scale(1.1);
 }
-
 .blog-card:hover h5,
 .blog-card:hover a {
     color: var(--primary-color);
 }
-
 .blog-card:hover a {
     text-decoration: underline;
 }
-
 /* ----------------blogs section ------------- */
 
 /* -------------newletter section --------------- */
@@ -264,15 +245,14 @@ a {
     background: url('./assets/banner/newsletter.jpg') no-repeat center center / cover;
     background-attachment: fixed;
 }
-
 .newsletter .newsletter-content {
     width: 100%;
     height: 100%;
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
-
 /* -------------newletter section --------------- */
+
 /*------------- contact section ------------ */
 .social-links a {
     display: inline-block;
@@ -281,11 +261,9 @@ a {
     color: #27ae60;
     transition: color 0.3s ease;
 }
-
 .social-links a:hover {
     color: #2ecc71;
 }
-
 /*------------- contact section ------------ */
 
 /*--------------------------footer section starts here----------------------------*/
@@ -293,35 +271,28 @@ footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
-
 .footer-links li:not(:last-child) {
     margin-bottom: 1rem;
 }
-
 footer ul {
     list-style: none;
     padding: 0;
 }
-
 .footer-links li a {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
-
 .footer-links li:hover a {
     text-decoration: underline;
 }
-
 .footer-newsletter input {
     padding: 1rem;
     margin-right: 10px;
-    ;
     background-color: var(--secondary-color);
     outline: none;
     border: none;
     border: 1px solid var(--border-color);
 }
-
 .footer-btn {
     padding: 1rem 2rem;
     outline: none;
@@ -329,7 +300,6 @@ footer ul {
     color: var(--primary-color);
     background-color: var(--secondary-color);
 }
-
 .footer-bottom {
     background-color: #2b7a6b;
     padding: 1rem;
@@ -340,14 +310,12 @@ footer ul {
     align-items: center;
     justify-content: space-between;
 }
-
 .footer-bottom ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
-
 /*-------------------------footer section ends here-----------------------*/
 /* Responsive Adjustments */
 @media (min-width: 768px) {
@@ -355,24 +323,21 @@ footer ul {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
 @media (min-width: 992px) {
     .hero-content>div {
         max-width: 60%;
     }
-
     .nav {
         display: flex;
     }
-
     .hamburger {
         display: none;
     }
-    /* gallery section  */
+    /*-------- gallery section --------- */
     .gallery-images {
         grid-template-columns: repeat(4, 1fr);
     }
-    /* footer  */
+    /* ------------footer------------  */
     .footer-bottom {
         flex-direction: row;
     }
