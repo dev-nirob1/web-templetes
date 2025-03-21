@@ -203,6 +203,19 @@ color: var(--primary-color)
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 /* -------------newletter section --------------- */
+/*------------- contact section ------------ */
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #27ae60;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #2ecc71;
+  }
+/*------------- contact section ------------ */
 
 /*--------------------------footer section starts here----------------------------*/
 footer {
